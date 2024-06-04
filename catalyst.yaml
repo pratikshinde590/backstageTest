@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Techdome
+  description: Techdome AKS cluster
+  tags:
+    - k8s
+  annotations:
+    "backstage.io/kubernetes-id": techdome-aks3
+    "backstage.io/kubernetes-namespace": backstage
+spec:
+  type: service
+  lifecycle: production
+  owner: team-a
